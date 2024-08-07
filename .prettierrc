@@ -1,0 +1,30 @@
+{
+  "arrowParens": "avoid",
+  "endOfLine": "crlf",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": ["*.html", "*.css", "*.scss", "*.json"],
+      "options": {
+        "printWidth": 70,
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.ts", "*.tsx", "*.js"],
+      "options": {
+        "printWidth": 130
+      }
+    },
+    {
+      "files": ["*.yaml"],
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 200
+      }
+    }
+  ]
+}
