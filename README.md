@@ -1,4 +1,4 @@
-# My Portfolio
+# Personal Website
 
 Welcome to my website! It is built using React with Vite, animated using Three.js, Three Fiber, and Three Drei. The styled with Tailwind CSS and ShadCN. The project is managed with Bun for efficient package management and script execution. You can find all my links there, enjoy!
 
