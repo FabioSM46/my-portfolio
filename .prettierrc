@@ -6,6 +6,7 @@
     "tabWidth": 4,
     "proseWrap": "never",
     "trailingComma": "none",
+    "plugins": ["prettier-plugin-tailwindcss"],
     "overrides": [
         {
             "files": ["*.html", "*.css", "*.scss", "*.json"],
