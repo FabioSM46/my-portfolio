@@ -1,4 +1,3 @@
-import { Environment, Lightformer } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { EffectComposer, TiltShift2 } from '@react-three/postprocessing';
 import { FileUser, Github, Linkedin } from 'lucide-react';
@@ -67,14 +66,6 @@ function App() {
                 camera={{ position: [0, 0, 20], fov: 50 }}
             >
                 <Status position={[0, 0, -10]} />
-                <Environment preset="studio">
-                    <Lightformer
-                        intensity={8}
-                        position={[10, 5, 0]}
-                        scale={[10, 50, 1]}
-                        onUpdate={self => self.lookAt(0, 0, 0)}
-                    />
-                </Environment>
                 <EffectComposer>
                     <TiltShift2 blur={blur} />
                 </EffectComposer>
