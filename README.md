@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my website! It is built using React with Vite, animated using Three.js, Three Fiber, and Three Drei. The styled with Tailwind CSS and ShadCN. The project is managed with Bun for efficient package management and script execution. You can find all my links there, enjoy!
 
-Currently, two official plugins are available:
+## Features
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Dynamic Animations**: Interactive animations powered by Three.js and Three Fiber.
+-   **Modern Aesthetic**: Clean and modern UI using ShadCN for polished components.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
--   Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ['./tsconfig.node.json', './tsconfig.app.json'],
-            tsconfigRootDir: import.meta.dirname
-        }
-    }
-});
-```
-
--   Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
--   Optionally add `...tseslint.configs.stylisticTypeChecked`
--   Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-    // Set the react version
-    settings: { react: { version: '18.3' } },
-    plugins: {
-        // Add the react plugin
-        react
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended rules
-        ...react.configs.recommended.rules,
-        ...react.configs['jsx-runtime'].rules
-    }
-});
-```
+-   **React**: A JavaScript library for building user interfaces.
+-   **Vite**: A fast build tool that provides a modern development environment.
+-   **Three.js**: A 3D library that makes creating 3D graphics easier.
+-   **Three Fiber**: A React renderer for Three.js, enabling declarative 3D programming.
+-   **Three Drei**: A collection of useful helpers for Three Fiber.
+-   **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+-   **ShadCN**: A component library for building modern UIs.
+-   **Bun**: A fast JavaScript runtime and package manager.
