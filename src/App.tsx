@@ -46,16 +46,16 @@ function App() {
     return (
         <>
             <div className="flex justify-center gap-2">
-                <Button variant={'secondary'} onClick={() => onClickLinkHandler('https://github.com/FabioSM46')}>
+                <Button variant={'default'} onClick={() => onClickLinkHandler('https://github.com/FabioSM46')}>
                     <Github />
                 </Button>
                 <Button
-                    variant={'secondary'}
+                    variant={'default'}
                     onClick={() => onClickLinkHandler('https://www.linkedin.com/in/fabio-sdringola-maranga/')}
                 >
                     <Linkedin />
                 </Button>
-                <Button variant={'secondary'} onClick={() => onClickLinkHandler('/resume/resume.pdf')}>
+                <Button variant={'default'} onClick={() => onClickLinkHandler('/resume.pdf')}>
                     <FileUser />
                 </Button>
             </div>
