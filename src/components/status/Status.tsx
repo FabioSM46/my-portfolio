@@ -8,7 +8,7 @@ type StatusProps = FC<{
 const Status: StatusProps = ({ position }) => {
     return (
         <Text fontSize={14} letterSpacing={-0.025} color="black" position={position}>
-            web dev
+            web.dɘv
         </Text>
     );
 };
