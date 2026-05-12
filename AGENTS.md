@@ -85,6 +85,14 @@ bun format       # Prettier format
 - **LinkedIn:** https://www.linkedin.com/in/fabio-sdringola-maranga/
 - **GitHub:** https://github.com/FabioSM46
 
+## Versioning
+- **Strategy:** Git commit hash (automated, zero maintenance)
+- **Display:** Short commit hash (e.g., `97ee2d7`) shown in the footer as "Build {hash}"
+- **Source:** `__GIT_COMMIT_SHORT__` injected at build time via Vite `define`
+- **Location:** `src/components/Footer.tsx`
+- **Update:** Automatic — changes with every commit, no manual intervention needed
+- **Config:** `vite.config.ts` reads hash via `git rev-parse --short HEAD`
+
 ## Critical Constraints
 - Single-page application (SPA)
 - Mobile-first responsive design
