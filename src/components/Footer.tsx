@@ -43,6 +43,8 @@ export default function Footer() {
           </a>
           <a
             href={`mailto:${getEmail()}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
             aria-label="Email"
           >
