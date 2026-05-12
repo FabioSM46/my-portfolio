@@ -20,6 +20,9 @@ export default function Footer() {
           <p className="text-[10px] sm:text-xs text-muted-foreground/60 mt-0.5 sm:mt-1">
             Perugia, Umbria, Italy
           </p>
+          <p className="text-[10px] sm:text-xs text-muted-foreground/40 mt-0.5">
+            Build {__GIT_COMMIT_SHORT__}
+          </p>
         </div>
 
         <div className="flex items-center gap-4 sm:gap-6">
